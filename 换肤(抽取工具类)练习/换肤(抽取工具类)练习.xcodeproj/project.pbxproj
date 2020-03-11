@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2AE34DE241880AA003362CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE34DD241880AA003362CC /* AppDelegate.m */; };
+		A2AE34E1241880AA003362CC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE34E0241880AA003362CC /* SceneDelegate.m */; };
+		A2AE34E4241880AA003362CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE34E3241880AA003362CC /* ViewController.m */; };
+		A2AE34E7241880AA003362CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AE34E5241880AA003362CC /* Main.storyboard */; };
+		A2AE34E9241880AC003362CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AE34E8241880AC003362CC /* Assets.xcassets */; };
+		A2AE34EC241880AC003362CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AE34EA241880AC003362CC /* LaunchScreen.storyboard */; };
+		A2AE34EF241880AC003362CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AE34EE241880AC003362CC /* main.m */; };
+		A2FADEF4241896D000B7C74D /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADEF3241896D000B7C74D /* Tool.m */; };
+		A2FADEF724189C0900B7C74D /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADEF624189C0900B7C74D /* Const.m */; };
+		A2FADEFA2418B86900B7C74D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FADEF92418B86900B7C74D /* SecondViewController.m */; };
+		A2FADEFF2418D4C800B7C74D /* chunjie_back.png in Resources */ = {isa = PBXBuildFile; fileRef = A2FADEFE2418D4C800B7C74D /* chunjie_back.png */; };
+		A2FADF0E2418D59600B7C74D /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2FADF0D2418D59600B7C74D /* images.bundle */; };
+		A2FADF102418E98700B7C74D /* LabelColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2FADF0F2418E98700B7C74D /* LabelColor.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2AE34D9241880AA003362CC /* 换肤(抽取工具类)练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "换肤(抽取工具类)练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2AE34DC241880AA003362CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2AE34DD241880AA003362CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2AE34DF241880AA003362CC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A2AE34E0241880AA003362CC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A2AE34E2241880AA003362CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2AE34E3241880AA003362CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2AE34E6241880AA003362CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2AE34E8241880AC003362CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2AE34EB241880AC003362CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2AE34ED241880AC003362CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2AE34EE241880AC003362CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FADEF2241896D000B7C74D /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		A2FADEF3241896D000B7C74D /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		A2FADEF524189C0900B7C74D /* Const.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		A2FADEF624189C0900B7C74D /* Const.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		A2FADEF82418B86900B7C74D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A2FADEF92418B86900B7C74D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A2FADEFE2418D4C800B7C74D /* chunjie_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chunjie_back.png; sourceTree = "<group>"; };
+		A2FADF0D2418D59600B7C74D /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		A2FADF0F2418E98700B7C74D /* LabelColor.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = LabelColor.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2AE34D6241880AA003362CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2AE34D0241880AA003362CC = {
+			isa = PBXGroup;
+			children = (
+				A2AE34DB241880AA003362CC /* 换肤(抽取工具类)练习 */,
+				A2AE34DA241880AA003362CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2AE34DA241880AA003362CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2AE34D9241880AA003362CC /* 换肤(抽取工具类)练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2AE34DB241880AA003362CC /* 换肤(抽取工具类)练习 */ = {
+			isa = PBXGroup;
+			children = (
+				A2FADEFB2418D26700B7C74D /* Theme */,
+				A2AE34DC241880AA003362CC /* AppDelegate.h */,
+				A2AE34DD241880AA003362CC /* AppDelegate.m */,
+				A2AE34DF241880AA003362CC /* SceneDelegate.h */,
+				A2AE34E0241880AA003362CC /* SceneDelegate.m */,
+				A2AE34E2241880AA003362CC /* ViewController.h */,
+				A2AE34E3241880AA003362CC /* ViewController.m */,
+				A2AE34E5241880AA003362CC /* Main.storyboard */,
+				A2AE34E8241880AC003362CC /* Assets.xcassets */,
+				A2AE34EA241880AC003362CC /* LaunchScreen.storyboard */,
+				A2AE34ED241880AC003362CC /* Info.plist */,
+				A2AE34EE241880AC003362CC /* main.m */,
+				A2FADEF524189C0900B7C74D /* Const.h */,
+				A2FADEF624189C0900B7C74D /* Const.m */,
+				A2FADEF82418B86900B7C74D /* SecondViewController.h */,
+				A2FADEF92418B86900B7C74D /* SecondViewController.m */,
+				A2FADEFE2418D4C800B7C74D /* chunjie_back.png */,
+				A2FADF0F2418E98700B7C74D /* LabelColor.plist */,
+			);
+			path = "换肤(抽取工具类)练习";
+			sourceTree = "<group>";
+		};
+		A2FADEFB2418D26700B7C74D /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				A2FADF0D2418D59600B7C74D /* images.bundle */,
+				A2FADEF2241896D000B7C74D /* Tool.h */,
+				A2FADEF3241896D000B7C74D /* Tool.m */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2AE34D8241880AA003362CC /* 换肤(抽取工具类)练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2AE34F2241880AC003362CC /* Build configuration list for PBXNativeTarget "换肤(抽取工具类)练习" */;
+			buildPhases = (
+				A2AE34D5241880AA003362CC /* Sources */,
+				A2AE34D6241880AA003362CC /* Frameworks */,
+				A2AE34D7241880AA003362CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "换肤(抽取工具类)练习";
+			productName = "换肤(抽取工具类)练习";
+			productReference = A2AE34D9241880AA003362CC /* 换肤(抽取工具类)练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2AE34D1241880AA003362CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kevin;
+				TargetAttributes = {
+					A2AE34D8241880AA003362CC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A2AE34D4241880AA003362CC /* Build configuration list for PBXProject "换肤(抽取工具类)练习" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2AE34D0241880AA003362CC;
+			productRefGroup = A2AE34DA241880AA003362CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2AE34D8241880AA003362CC /* 换肤(抽取工具类)练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2AE34D7241880AA003362CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AE34EC241880AC003362CC /* LaunchScreen.storyboard in Resources */,
+				A2FADF102418E98700B7C74D /* LabelColor.plist in Resources */,
+				A2AE34E9241880AC003362CC /* Assets.xcassets in Resources */,
+				A2AE34E7241880AA003362CC /* Main.storyboard in Resources */,
+				A2FADF0E2418D59600B7C74D /* images.bundle in Resources */,
+				A2FADEFF2418D4C800B7C74D /* chunjie_back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2AE34D5241880AA003362CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FADEF4241896D000B7C74D /* Tool.m in Sources */,
+				A2AE34E4241880AA003362CC /* ViewController.m in Sources */,
+				A2AE34DE241880AA003362CC /* AppDelegate.m in Sources */,
+				A2FADEFA2418B86900B7C74D /* SecondViewController.m in Sources */,
+				A2FADEF724189C0900B7C74D /* Const.m in Sources */,
+				A2AE34EF241880AC003362CC /* main.m in Sources */,
+				A2AE34E1241880AA003362CC /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2AE34E5241880AA003362CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2AE34E6241880AA003362CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2AE34EA241880AC003362CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2AE34EB241880AC003362CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2AE34F0241880AC003362CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2AE34F1241880AC003362CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2AE34F3241880AC003362CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "换肤(抽取工具类)练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevin.ios.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2AE34F4241880AC003362CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "换肤(抽取工具类)练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kevin.ios.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2AE34D4241880AA003362CC /* Build configuration list for PBXProject "换肤(抽取工具类)练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2AE34F0241880AC003362CC /* Debug */,
+				A2AE34F1241880AC003362CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2AE34F2241880AC003362CC /* Build configuration list for PBXNativeTarget "换肤(抽取工具类)练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2AE34F3241880AC003362CC /* Debug */,
+				A2AE34F4241880AC003362CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2AE34D1241880AA003362CC /* Project object */;
+}
